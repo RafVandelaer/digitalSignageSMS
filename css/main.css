@@ -18,7 +18,7 @@ h1{
 }
 .tablehead{
     text-transform: uppercase;
-    background-color: darkgray;
+    background-color: #c9c9c9;
     font-family: "TwCenMT", serif;
     font-weight: bold;
     text-align: left;
@@ -41,10 +41,13 @@ td:first-child{
     border-left: solid 1px #FFF;
     border-bottom: solid 1px #FFF;
 }
+th, td {
+    padding-left: 7px;
+}
 
 td{
     width: 20%;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     height: 25px;
 }
@@ -64,7 +67,8 @@ html {
 }
 body {
     min-height: 100%;
-    background-color: bisque;
+    margin: 0;
+    /*background-color: bisque;*/
 }
 .title{
     font-family: "TwCenMT", serif;
