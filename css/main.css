@@ -33,7 +33,14 @@ table{
     margin-bottom: 25px;
 
 }
-td:first-child{
+.lkrContainer{
+    background-color: aquamarine;
+    /*min-height: 50%;*/
+}
+.lkrtable td{
+    width: 50%;
+}
+.uurtable td:first-child{
     width:40%;
     text-align: left;
 }
@@ -45,7 +52,7 @@ th, td {
     padding-left: 7px;
 }
 
-td{
+.uurtable td{
     width: 20%;
     font-size: 22px;
     text-align: center;
